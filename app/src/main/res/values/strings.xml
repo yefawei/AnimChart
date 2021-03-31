@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AnimChat</string>
+    <string name="set_adapter">setAdapter</string>
+    <string name="delay_3_second_down_order">延迟3秒看跌单</string>
+    <string name="delay_3_second_up_order">延迟3秒看涨单</string>
+    <string name="up_order">下看涨单</string>
+    <string name="down_order">下看跌单</string>
+    <string name="reset">重置</string>
+    <string name="clear_data">清除数据</string>
+    <string name="add_one_data">添加1个数据</string>
+    <string name="stop_timer">停止定时</string>
+    <string name="timed_loading">定时加载</string>
+</resources>

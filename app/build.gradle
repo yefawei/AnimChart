@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.application'
+}
+apply from:'../config.gradle'
+
+android {
+    defaultConfig {
+        applicationId "com.benben.animchat"
+    }
+
+    dependenciesInfo {
+        includeInApk false
+        includeInBundle false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation project(path: ':ChatLibrary')
+}
