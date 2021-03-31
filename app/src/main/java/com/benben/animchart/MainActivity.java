@@ -167,6 +167,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void reset(View view) {
         index = 0;
+        DataRequest.initData(this);
         mHandler.removeCallbacksAndMessages(null);
         mChartView.setAdapter(null);
     }
